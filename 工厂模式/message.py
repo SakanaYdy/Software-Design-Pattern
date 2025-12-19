@@ -4,6 +4,7 @@
 """
 from typing import Protocol
 
+# 不同的消息类型
 class Message(Protocol):
     def send(self, message: str):
         pass
